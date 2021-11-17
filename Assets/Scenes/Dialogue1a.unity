@@ -213,6 +213,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -310,6 +311,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -661,12 +663,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bienvenue, le nouveau. Je suis Marcel, chef du groupe Morhange.\nMais
-    oublie les noms, ici je suis X1, et tu seras X8.\nJe vais la faire courte. Cette
-    pi\xE8ce est le c\u0153ur du ch\xE2teau.\n"
+  m_text: "Bienvenue, le nouveau. Je suis Marcel, chef du groupe Morhange. Mais oublie
+    les noms, ici je suis X1, et tu seras X8. Je vais la faire courte. Cette piece
+    est le c\u0153ur du ch\xE2teau.\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
+  m_sharedMaterial: {fileID: 3985771550380581966, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1469,8 +1471,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0015258789}
-  m_SizeDelta: {x: 2160, y: 1080}
+  m_AnchoredPosition: {x: -0.00012207, y: 22.5}
+  m_SizeDelta: {x: 2532, y: 1125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &865574986
 MonoBehaviour:
@@ -1759,13 +1761,14 @@ GameObject:
   - component: {fileID: 966690481}
   - component: {fileID: 966690480}
   - component: {fileID: 966690479}
+  - component: {fileID: 966690482}
   m_Layer: 5
   m_Name: Main_Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &966690478
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1880,6 +1883,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 966690477}
   m_CullTransparentMesh: 1
+--- !u!114 &966690482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966690477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22775e223b4815744a8d5d44aeebff98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initPosition: {x: 0, y: 0, z: 0}
+  initScale: {x: 0, y: 0, z: 0}
 --- !u!1 &1173264083
 GameObject:
   m_ObjectHideFlags: 0
@@ -2409,6 +2426,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 966690482}
+        m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
+        m_MethodName: display
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1245872547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2512,6 +2541,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3076,11 +3106,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Tu y trouveras la carte de Toulouse, pour te rendre aux missions, et des 
-    m\xE9moires de guerre, si tu veux plus d\u2019infos. Tout est consign\xE9 sur
-    ton journal, consulte-le si t\u2019as besoin d\u2019un rappel.\r\n"
+    Memoires de Guerre, si tu veux plus d\u2019infos. Tout est consigne sur ton journal,
+    consulte-le si t\u2019as besoin d\u2019un rappel.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
+  m_sharedMaterial: {fileID: 3985771550380581966, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3630,11 +3660,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bref, assez parl\xE9. Ta premi\xE8re mission commence maintenant.\nVa
-    aux vestiaires, trouves un chapeau et un manteau, et reviens ici.\n"
+  m_text: 'Bref, assez parle. Ta premiere mission commence maintenant. Va aux vestiaires,
+    trouves un chapeau et un manteau, et reviens ici.
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
+  m_sharedMaterial: {fileID: 3985771550380581966, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
