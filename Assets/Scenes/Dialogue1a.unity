@@ -617,6 +617,7 @@ GameObject:
   - component: {fileID: 287759802}
   - component: {fileID: 287759804}
   - component: {fileID: 287759803}
+  - component: {fileID: 287759805}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -663,9 +664,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bienvenue, le nouveau. Je suis Marcel, chef du groupe Morhange. Mais oublie
-    les noms, ici je suis X1, et tu seras X8. Je vais la faire courte. Cette piece
-    est le c\u0153ur du ch\xE2teau.\n"
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
   m_sharedMaterial: {fileID: 3985771550380581966, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
@@ -742,6 +743,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287759801}
   m_CullTransparentMesh: 1
+--- !u!114 &287759805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287759801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e20be5cb5c04bf34887540cfb52f22c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fullText: "Bienvenue, le nouveau. Je suis Marcel, chef du groupe Morhange. Mais
+    oublie les noms, ici je suis X1, et tu seras X8. Je vais la faire courte. Cette
+    piece est le c\u0153ur du chateau. "
+  delay: 0.05
 --- !u!1 &389543102
 GameObject:
   m_ObjectHideFlags: 0
