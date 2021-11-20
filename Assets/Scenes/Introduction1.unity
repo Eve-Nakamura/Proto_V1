@@ -965,10 +965,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "C\u2019est enfin avec \xE9motion que je me rends compte que c\u2019est
-    un point de non-retour, et que je ne reverrai peut-\xEAtre jamais ma famille.
-    Mais je me battrai jusqu\u2019au bout pour la Libert\xE9.\r \t\t\t\t\tVive la
-    France !\n"
+  m_text: "C\u2019est enfin avec emotion que je me rends compte que c\u2019est un
+    point de non-retour, et que je ne reverrai peut-etre jamais ma famille. Mais
+    je me battrai jusqu\u2019au bout pour la Liberte.\r \t\t\t\t\tVive la France
+    !\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
   m_sharedMaterial: {fileID: 3985771550380581966, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
@@ -1278,10 +1278,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "C\u2019est \xE9galement avec honneur que je brandis mes armes aux c\xF4t\xE9s
-    de Ricardo, Ginou et Carton, et en m\xE9moire de tant d\u2019autres qui sont
-    d\xE9j\xE0 tomb\xE9s au combat. J\u2019esp\xE8re \xEAtre \xE0 la hauteur des
-    missions que l\u2019on me confiera."
+  m_text: "C\u2019est egalement avec honneur que je brandis mes armes aux cotes de
+    Ricardo, Ginou et Carton, et en memoire de tant d\u2019autres qui sont deja tombes
+    au combat. J\u2019espere etre \xE0 la hauteur des missions que l\u2019on me confiera."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
   m_sharedMaterial: {fileID: 3985771550380581966, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}

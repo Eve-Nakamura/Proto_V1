@@ -755,9 +755,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e20be5cb5c04bf34887540cfb52f22c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fullText: "Bienvenue, le nouveau. Je suis Marcel, chef du groupe Morhange. Mais
+  fullText: 'Bienvenue, le nouveau. Je suis Marcel, chef du groupe Morhange. Mais
     oublie les noms, ici je suis X1, et tu seras X8. Je vais la faire courte. Cette
-    piece est le c\u0153ur du chateau. "
+    piece est le coeur du chateau. '
   delay: 0.05
 --- !u!1 &389543102
 GameObject:

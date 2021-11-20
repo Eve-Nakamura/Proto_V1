@@ -8,7 +8,7 @@ public class TypeWriter : MonoBehaviour
     public string fullText;
     private string currentText;
     public float delay = 0.2f;
-    bool skip = false;
+    
 
 
     void Start() //avant même que la scène ne démarre pour pas qu'on voit
