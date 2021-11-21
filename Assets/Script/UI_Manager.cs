@@ -40,8 +40,8 @@ public class UI_Manager : MonoBehaviour
 
     public void minimizePerso()
     {
-        gameObject.transform.localPosition = new Vector3(800, -314, initPosition.z);
-        gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x/2, gameObject.transform.localScale.y/2, gameObject.transform.localScale.z);
+        gameObject.transform.localPosition = new Vector3(800, -180, initPosition.z);
+        gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x/3, gameObject.transform.localScale.y/3, gameObject.transform.localScale.z);
        
     } 
     public void rescalePerso()
