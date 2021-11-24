@@ -4763,9 +4763,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1761325041}
+      - m_Target: {fileID: 536319294}
         m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
-        m_MethodName: hide
+        m_MethodName: display
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
