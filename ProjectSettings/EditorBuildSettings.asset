@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bureau1a.unity
     guid: 5113070567a8097418ef0f480575e023
+  - enabled: 1
+    path: Assets/Scenes/Recherche1.unity
+    guid: 8490667cb32638243ac8c11ec58fc482
   m_configObjects: {}
