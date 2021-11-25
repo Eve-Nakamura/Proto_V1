@@ -2083,7 +2083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e075fe06bcb79944f87acd30401de199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Couloir1bis
+  sceneName: Couloir1Bis
 --- !u!1 &1019228464
 GameObject:
   m_ObjectHideFlags: 0
