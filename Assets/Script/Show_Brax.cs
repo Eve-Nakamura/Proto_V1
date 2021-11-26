@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Show_Brax : MonoBehaviour
 {
@@ -24,7 +25,9 @@ public class Show_Brax : MonoBehaviour
             {
                 if (hit.collider.name == "Brax")
                 {
+                    Debug.Log("Text: ");
                     image1.GetComponent<UI_Manager>().display();
+                   
                 }
 
             }
