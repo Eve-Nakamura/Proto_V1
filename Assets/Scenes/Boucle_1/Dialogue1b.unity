@@ -5211,9 +5211,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2103641073}
+    - target: {fileID: 5143270822793053629, guid: 8627505b6e5558f44a6bb055fa8dd21a, type: 3}
+      propertyPath: m_text
+      value: "Retrouve le contact au Boulevard des Minimes. \n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143270823841676860, guid: 8627505b6e5558f44a6bb055fa8dd21a, type: 3}
+      propertyPath: m_text
+      value: "Missions accomplies :\n\n  Mission 1 : 1/2\n  Mission 2 : 0/2\n  Mission
+        3 : 0/2"
+      objectReference: {fileID: 0}
     - target: {fileID: 5143270824254252344, guid: 8627505b6e5558f44a6bb055fa8dd21a, type: 3}
       propertyPath: m_Name
       value: Lejournal
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143270824254252344, guid: 8627505b6e5558f44a6bb055fa8dd21a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5143270824254252345, guid: 8627505b6e5558f44a6bb055fa8dd21a, type: 3}
       propertyPath: m_Pivot.x

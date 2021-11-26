@@ -60,6 +60,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Boucle_1/Dialogue1bBis.unity
     guid: 0df583bdb6d0fb0428af05efafc157a3
   - enabled: 1
-    path: Assets/Scenes/Minimes.unity
+    path: Assets/Scenes/Boucle_1/Minimes.unity
     guid: 61614934d01ff484a8aa8842b74f060b
   m_configObjects: {}

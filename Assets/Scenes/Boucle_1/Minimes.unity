@@ -154,7 +154,7 @@ RectTransform:
   m_LocalScale: {x: 1.1522617, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1348480716}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2159,11 +2159,11 @@ RectTransform:
   - {fileID: 1035961150}
   - {fileID: 441517315}
   - {fileID: 220467898}
-  - {fileID: 1431216431}
   - {fileID: 107314810}
+  - {fileID: 1431216431}
+  - {fileID: 2108068685}
   - {fileID: 1573736331}
   - {fileID: 1626484661}
-  - {fileID: 2108068685}
   - {fileID: 771139883}
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -2225,7 +2225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e075fe06bcb79944f87acd30401de199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Recherche1
+  sceneName: Enigme1
 --- !u!114 &1383380700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3039,6 +3039,15 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[7].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5143270822793053629, guid: 8627505b6e5558f44a6bb055fa8dd21a, type: 3}
+      propertyPath: m_text
+      value: 'Retrouve le contact au Boulevard des Minimes. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5143270823841676860, guid: 8627505b6e5558f44a6bb055fa8dd21a, type: 3}
+      propertyPath: m_text
+      value: "Missions accomplies :\n\n  Mission 1 : 1/2\n  Mission 2 : 0/2\n  Mission
+        3 : 0/2"
+      objectReference: {fileID: 0}
     - target: {fileID: 5143270824254252344, guid: 8627505b6e5558f44a6bb055fa8dd21a, type: 3}
       propertyPath: m_Name
       value: Lejournal
@@ -3359,7 +3368,7 @@ GameObject:
   - component: {fileID: 2108068683}
   - component: {fileID: 2108068682}
   m_Layer: 5
-  m_Name: Rech
+  m_Name: enig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3399,7 +3408,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 61405673168f27544ab461106fc18871, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2f6299090f09c4749a667bd62d2c50e5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3431,7 +3440,7 @@ RectTransform:
   - {fileID: 1383380698}
   - {fileID: 348279168}
   m_Father: {fileID: 1348480716}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3455,7 +3464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3198231287537996532, guid: 96668f9f8a7251a49bfa63b90d7fb016, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3198231287537996532, guid: 96668f9f8a7251a49bfa63b90d7fb016, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3556,7 +3565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3879056705327444137, guid: 63d53d14c5d618646b0efd009b721cf8, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3879056705327444137, guid: 63d53d14c5d618646b0efd009b721cf8, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3637,6 +3646,10 @@ PrefabInstance:
     - target: {fileID: 3879056705327444138, guid: 63d53d14c5d618646b0efd009b721cf8, type: 3}
       propertyPath: m_Name
       value: Image
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879056705327444138, guid: 63d53d14c5d618646b0efd009b721cf8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63d53d14c5d618646b0efd009b721cf8, type: 3}
