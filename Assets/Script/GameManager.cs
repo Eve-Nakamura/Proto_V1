@@ -35,9 +35,9 @@ public class GameManager : MonoBehaviour
             {
                 item.GetComponent<Show_Codex>().enabled = false;
             }
-            else if (item.GetComponent<Show_Carte>())
+            else if (item.GetComponent<Show_Brax>())
             {
-                item.GetComponent<Show_Carte>().enabled = false;
+                item.GetComponent<Show_Brax>().enabled = false;
             }
         }
     }
@@ -57,9 +57,9 @@ public class GameManager : MonoBehaviour
             {
                 item.GetComponent<Show_Codex>().enabled = true;
             }
-            else if (item.GetComponent<Show_Carte>())
+            else if (item.GetComponent<Show_Brax>())
             {
-                item.GetComponent<Show_Carte>().enabled = true;
+                item.GetComponent<Show_Brax>().enabled = true;
             }
         }
 
