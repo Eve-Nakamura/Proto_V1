@@ -53,7 +53,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Enigme1.unity
     guid: de9fa01ba0d1c95468a6e05460301339
   - enabled: 1
@@ -62,4 +62,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Minimes.unity
     guid: 61614934d01ff484a8aa8842b74f060b
+  - enabled: 1
+    path: Assets/Scenes/Boucle_1/Good.unity
+    guid: 6f2649dde9758534d83574aedad7dc85
+  - enabled: 1
+    path: Assets/Scenes/Boucle_1/Bad.unity
+    guid: c4da2345972453e4dbcdc7c3ac19e873
   m_configObjects: {}
