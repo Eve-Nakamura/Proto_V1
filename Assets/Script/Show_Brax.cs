@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class Show_Brax : MonoBehaviour
 {
     public GameObject image1;
+    public GameObject journal;
+    public GameObject options;
     void Start()
     {
 
@@ -27,7 +29,9 @@ public class Show_Brax : MonoBehaviour
                 {
                     Debug.Log("Text: ");
                     image1.GetComponent<UI_Manager>().display();
-                   
+                    journal.GetComponent<UI_Manager>().hide();
+                    options.GetComponent<UI_Manager>().hide();
+
                 }
 
             }
