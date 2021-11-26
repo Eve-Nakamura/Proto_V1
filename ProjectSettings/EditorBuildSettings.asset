@@ -39,10 +39,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Carte1.unity
     guid: aaaa291d0d4701646acbb9f5161166f3
   - enabled: 1
-    path: Assets/Scenes/Couloir1Bis.unity
+    path: Assets/Scenes/Boucle_1/Couloir1Bis.unity
     guid: c6df87956122d0749babae64ed565950
   - enabled: 1
-    path: Assets/Scenes/Dialogue1b.unity
+    path: Assets/Scenes/Boucle_1/Dialogue1b.unity
     guid: 777f6e9d95f02ba4eb2d80a8b8e9bfe8
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Dialogue1c.unity
@@ -56,4 +56,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Enigme1.unity
     guid: de9fa01ba0d1c95468a6e05460301339
+  - enabled: 1
+    path: Assets/Scenes/Boucle_1/Dialogue1bBis.unity
+    guid: 0df583bdb6d0fb0428af05efafc157a3
   m_configObjects: {}
