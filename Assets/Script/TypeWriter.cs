@@ -1,7 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class TypeWriter : MonoBehaviour
 {
@@ -23,7 +22,7 @@ public class TypeWriter : MonoBehaviour
             if (!Input.GetMouseButtonDown(0))
             {
                 currentText = fullText.Substring(0, i);
-                this.GetComponent<TMPro.TextMeshProUGUI>().text = currentText;
+                GetComponent<TextMeshProUGUI>().text = currentText;
                 yield return new WaitForSeconds(delay);
             }
                
