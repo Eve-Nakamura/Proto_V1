@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Boucle_1/Recherche1.unity
     guid: 8490667cb32638243ac8c11ec58fc482
   - enabled: 1
-    path: Assets/Scenes/Carte1.unity
+    path: Assets/Scenes/Boucle_1/Carte1.unity
     guid: aaaa291d0d4701646acbb9f5161166f3
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Couloir1Bis.unity
@@ -50,13 +50,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Asuivre.unity
     guid: 9fd1c4e026fba64479858fc842f003e4
-  - enabled: 1
-    path: Assets/Scenes/Minimes.unity
-    guid: b40ba1c36b62be74c81c0a71fae96fe9
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Enigme1.unity
     guid: de9fa01ba0d1c95468a6e05460301339
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Dialogue1bBis.unity
     guid: 0df583bdb6d0fb0428af05efafc157a3
+  - enabled: 1
+    path: Assets/Scenes/Minimes.unity
+    guid: 61614934d01ff484a8aa8842b74f060b
   m_configObjects: {}

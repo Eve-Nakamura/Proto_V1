@@ -27,7 +27,7 @@ public class Show_Brax : MonoBehaviour
             {
                 if (hit.collider.name == "Brax")
                 {
-                    Debug.Log("Text: ");
+                    
                     image1.GetComponent<UI_Manager>().display();
                     journal.GetComponent<UI_Manager>().hide();
                     options.GetComponent<UI_Manager>().hide();

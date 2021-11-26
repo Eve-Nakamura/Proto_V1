@@ -31,9 +31,9 @@ public class GameManager : MonoBehaviour
             {
                 item.GetComponent<Button>().enabled = false;
             }
-            else if( item.GetComponent<Show_Codex>())
+            else if( item.GetComponent<Show_Minimes>())
             {
-                item.GetComponent<Show_Codex>().enabled = false;
+                item.GetComponent<Show_Minimes>().enabled = false;
             }
             else if (item.GetComponent<Show_Brax>())
             {
@@ -53,9 +53,9 @@ public class GameManager : MonoBehaviour
             {
                 item.GetComponent<Button>().enabled = true;
             }
-            else if( item.GetComponent<Show_Codex>())
+            else if( item.GetComponent<Show_Minimes>())
             {
-                item.GetComponent<Show_Codex>().enabled = true;
+                item.GetComponent<Show_Minimes>().enabled = true;
             }
             else if (item.GetComponent<Show_Brax>())
             {
