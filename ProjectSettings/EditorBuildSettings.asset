@@ -50,4 +50,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Asuivre.unity
     guid: 9fd1c4e026fba64479858fc842f003e4
+  - enabled: 1
+    path: Assets/Scenes/Minimes.unity
+    guid: b40ba1c36b62be74c81c0a71fae96fe9
+  - enabled: 1
+    path: Assets/Scenes/Enigme1.unity
+    guid: de9fa01ba0d1c95468a6e05460301339
   m_configObjects: {}
