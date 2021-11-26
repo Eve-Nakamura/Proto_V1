@@ -6,7 +6,10 @@ using TMPro;
 public class Timer : MonoBehaviour
 {
   
-    [SerializeField] float tempsEnCours;
+    [SerializeField] [Range(1, 60)] float tempsEnCours;
+    [SerializeField] bool tempsRech;
+    [SerializeField] bool tempsPret;
+    [SerializeField] Timer timerRech;
     bool pret;
     bool tempsFini;
     TextMeshProUGUI myTimer;
@@ -22,41 +25,65 @@ public class Timer : MonoBehaviour
 
     private void Start()
     {
+        if (tempsPret == true)
+        {
+            pret = true;
+        }
         myTimer = GetComponent<TextMeshProUGUI>();
     }
     void Update()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            pret = true; //3, 2, 1...
-        }
+        
 
         if (pret == true && tempsFini == false)
         {
             if (tempsEnCours > 0)
             {
                 tempsEnCours -= Time.deltaTime; //timer defile
-                myTimer.text = "00:" + tempsEnCours.ToString("f0"); //affichage timer
+                if (tempsRech == true) {
+                    myTimer.text = "00:" + tempsEnCours.ToString("f0"); //affichage timer
+                }
+
+                else
+                {
+                    myTimer.text =tempsEnCours.ToString("f0"); //affichage timer
+                }
+
+
             }
 
             else
             {
-                myTimer.text = "00:0"; //à 0 ou en dessous on affiche 0
-                tempsFini = true; //c termine
-
-            }
-
-            if (tempsFini == true)
-            {
-                if (popUpFini != null) { 
-                popUpFini.SetActive(true); //popup s'affiche
+                if (tempsRech == true)
+                {
+                    myTimer.text = "00:0"; //à 0 ou en dessous on affiche 0
                 }
+
+                else
+                {
+                    myTimer.text = "0"; //à 0 ou en dessous on affiche 0
+                }
+
+                Finish();
+
             }
+
         }
     }
 
     public void Finish()
     {
+        if (tempsPret == true)
+        {
+            timerRech.pret = true;
+            transform.parent.gameObject.SetActive(false);
+        }
 
+
+        tempsFini = true; //c termine
+        if (popUpFini != null)
+        {
+            popUpFini.SetActive(true); //popup s'affiche
+        }
     }
 }
