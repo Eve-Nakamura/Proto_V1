@@ -14,6 +14,7 @@ public class Timer : MonoBehaviour
     bool tempsFini;
     TextMeshProUGUI myTimer;
     [SerializeField] GameObject popUpFini;
+    [SerializeField] GameObject popUpFiniBad;
     [SerializeField] GameObject fondfin;
 
 
@@ -82,9 +83,15 @@ public class Timer : MonoBehaviour
 
 
         tempsFini = true; //c termine
-        if (popUpFini != null)
+        if (popUpFini != null && tempsEnCours > 0)
         {
             popUpFini.SetActive(true); //popup s'affiche
+            fondfin.SetActive(true); //popup s'affiche
+        }
+
+        if (popUpFini != null && tempsEnCours <= 0)
+        {
+            popUpFiniBad.SetActive(true); //popup s'affiche
             fondfin.SetActive(true); //popup s'affiche
         }
     }
