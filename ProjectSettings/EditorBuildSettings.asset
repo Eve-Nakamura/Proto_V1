@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Bad.unity
     guid: c4da2345972453e4dbcdc7c3ac19e873
+  - enabled: 1
+    path: Assets/Scenes/Boucle_1/Enigme1.unity
+    guid: e9d0643567a7dca45852006dd5a90d31
   m_configObjects: {}
