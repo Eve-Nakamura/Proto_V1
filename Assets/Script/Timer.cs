@@ -77,7 +77,11 @@ public class Timer : MonoBehaviour
     {
         if (tempsPret == true)
         {
-            timerRech.pret = true;
+            if(timerRech != null)
+            {
+                timerRech.pret = true;
+            }
+           
             transform.parent.gameObject.SetActive(false);
         }
 
