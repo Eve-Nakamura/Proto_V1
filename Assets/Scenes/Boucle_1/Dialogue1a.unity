@@ -3895,8 +3895,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e20be5cb5c04bf34887540cfb52f22c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fullText: 'Bref, assez parle. Ta premiere mission commence maintenant. Va aux vestiaires,
-    trouves un chapeau et un manteau, et reviens ici. '
+  fullText: 'Bref, assez parle. Ta premiere mission commence maintenant. Vas aux
+    vestiaires, trouve un chapeau et un manteau, et reviens ici. '
   delay: 0.05
 --- !u!114 &1578146203
 MonoBehaviour:
