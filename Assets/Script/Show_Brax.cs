@@ -13,7 +13,7 @@ public class Show_Brax : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    // c'est pareil que les minimes mais pr le chateau de brax
     [System.Obsolete]
     void Update()
     {
@@ -25,7 +25,7 @@ public class Show_Brax : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                if (hit.collider.name == "Brax")
+                if (hit.collider.name == "Brax") 
                 {
                     
                     image1.GetComponent<UI_Manager>().display();

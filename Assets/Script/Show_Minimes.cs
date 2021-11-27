@@ -12,22 +12,21 @@ public class Show_Minimes : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     [System.Obsolete]
     void Update()
     {
-        Ray ray;
+        Ray ray; //on cree le raycast
         RaycastHit hit;
 
-        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        ray = Camera.main.ScreenPointToRay(Input.mousePosition); //quand on touche l'ecran 
         if (Physics.Raycast(ray, out hit))
         {
             if (Input.GetMouseButtonDown(0))
             {
-                if (hit.collider.name == "Minimes")
+                if (hit.collider.name == "Minimes") //on touche pas à tout non plus
                 {
 
-                    image1.GetComponent<UI_Manager>().display();
+                    image1.GetComponent<UI_Manager>().display(); //permet l'affichage d'ui avec le raycast
                     journal.GetComponent<UI_Manager>().hide();
                     options.GetComponent<UI_Manager>().hide();
 
