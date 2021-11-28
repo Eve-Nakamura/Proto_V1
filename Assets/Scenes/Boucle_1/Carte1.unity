@@ -254,7 +254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5143270824254252345, guid: 8627505b6e5558f44a6bb055fa8dd21a, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5143270824254252345, guid: 8627505b6e5558f44a6bb055fa8dd21a, type: 3}
       propertyPath: m_AnchorMax.x
@@ -495,7 +495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7637104449539983744, guid: 3076f8ac9b7b6d5478c3696496b4015b, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7637104449539983744, guid: 3076f8ac9b7b6d5478c3696496b4015b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1401,7 +1401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4456593169281120586, guid: 61de8cc5788a5a4499366bb7eb7efe13, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4456593169281120586, guid: 61de8cc5788a5a4499366bb7eb7efe13, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1793,7 +1793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2086801848062156456, guid: a05f585114de34247a7c11984890c17a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2086801848062156456, guid: a05f585114de34247a7c11984890c17a, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2287,7 +2287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2134555207808941091, guid: ac628169ef4b9084fb2d462ff54f3fbc, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2134555207808941091, guid: ac628169ef4b9084fb2d462ff54f3fbc, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2752,12 +2752,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2400, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
