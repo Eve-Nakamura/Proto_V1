@@ -13,7 +13,7 @@ public class UI_Manager : MonoBehaviour
     bool readyBouton = false;
     bool mini;
 
-    private void Start()
+    private void Start() //pardon d'avance pour cet horrible code mais des cerveaux ont été perdus dans la bataille
     {
         initScale = gameObject.transform.localScale;
         initPosition = gameObject.transform.position;
@@ -79,7 +79,7 @@ public class UI_Manager : MonoBehaviour
     }
     public void minimizePerso()
     {
-        print("minimize perso");
+        /*print("minimize perso");*/
         if (!mini)
         {
             mini = true;
