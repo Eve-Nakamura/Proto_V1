@@ -54,8 +54,8 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Enigme1.unity
-    guid: de9fa01ba0d1c95468a6e05460301339
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Dialogue1bBis.unity
     guid: 0df583bdb6d0fb0428af05efafc157a3
