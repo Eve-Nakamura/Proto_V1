@@ -852,6 +852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scoreprefab
       objectReference: {fileID: 0}
+    - target: {fileID: 5180803476450716559, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8342261708141938195, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
       propertyPath: m_SizeDelta.x
       value: 1378.1868

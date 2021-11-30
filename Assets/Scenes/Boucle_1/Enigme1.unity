@@ -176,6 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &91279594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1102,6 +1103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &632977176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1497,6 +1499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &835808070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1753,6 +1756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!1 &993000976
 GameObject:
   m_ObjectHideFlags: 0
@@ -2988,6 +2992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1510380907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3080,6 +3085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1607344200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3423,6 +3429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1862333484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3649,8 +3656,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
-  m_sharedMaterial: {fileID: 3985771550380581966, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7bebe369b249d2c40a312f82f2cbd3ca, type: 2}
+  m_sharedMaterial: {fileID: -1254177079719252908, guid: 7bebe369b249d2c40a312f82f2cbd3ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3674,7 +3681,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 580
+  m_fontSize: 522.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3797,6 +3804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1900183929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4073,7 +4081,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: 158}
+  m_AnchoredPosition: {x: 17, y: 158}
   m_SizeDelta: {x: 1468.4866, y: 465.8794}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2024385364
@@ -4096,10 +4104,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Preparez-vous...
+  m_text: "Pr\xE9parez-vous..."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
-  m_sharedMaterial: {fileID: 3985771550380581966, guid: 5c065db39ad504a49addc59a53fc4127, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7bebe369b249d2c40a312f82f2cbd3ca, type: 2}
+  m_sharedMaterial: {fileID: -1254177079719252908, guid: 7bebe369b249d2c40a312f82f2cbd3ca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4123,8 +4131,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 192.5
-  m_fontSizeBase: 192.5
+  m_fontSize: 180
+  m_fontSizeBase: 180
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4226,6 +4234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &2051550134
 MonoBehaviour:
   m_ObjectHideFlags: 0
