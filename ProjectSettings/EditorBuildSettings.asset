@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Enigme1.unity
     guid: e9d0643567a7dca45852006dd5a90d31
+  - enabled: 1
+    path: Assets/Scenes/Boucle_1/Couloir1 entre.unity
+    guid: d7ea4bb78b2178340978c43d69eaff46
   m_configObjects: {}

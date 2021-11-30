@@ -315,6 +315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &30277093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -538,6 +539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &151855328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -648,6 +650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &173213643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -910,7 +913,18 @@ MonoBehaviour:
   fullText: "T\u2019as tout ? Ok. Un nouveau contact de la police de Vichy a une
     info pour nous. Je sais pas qui c'est, donc trouve le parmi les personnes presentes
     au bar, et fais attention aux traitres de la Gestapo. "
+  currentText: 
   delay: 0.05
+  clickReady: 0
+  finishText: 0
+  MainExit: {fileID: 0}
+  Codex: {fileID: 0}
+  Carte: {fileID: 0}
+  Journal: {fileID: 0}
+  Option: {fileID: 0}
+  Perso: {fileID: 0}
+  Fond: {fileID: 0}
+  MissClick: {fileID: 0}
 --- !u!1 &389543102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,6 +1080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &536319295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1118,6 +1133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!1 &539053965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1449,6 +1465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &818773552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1759,6 +1776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &906040265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1919,6 +1937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &908705294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2173,6 +2192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &966690483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2185,7 +2205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e075fe06bcb79944f87acd30401de199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Couloir1Bis
+  sceneName: Couloir1 entre
 --- !u!1 &1019228464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2240,6 +2260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1019228467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2483,6 +2504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1045289933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2634,6 +2656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1110402913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2648,6 +2671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1110402914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2926,6 +2950,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1368537101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2940,6 +2965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1368537102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3047,6 +3073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1417423284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3206,6 +3233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1482871741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3538,6 +3566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1571284069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3861,7 +3890,18 @@ MonoBehaviour:
   fullText: "Jette un coup d'\u0153il \xE0 la carte et rends-toi au Boulevard des
     Minimes. Trouve qui est le bon contact, et reviens me voir avec l\u2019info.
     Bonne chance. "
+  currentText: 
   delay: 0.05
+  clickReady: 0
+  finishText: 0
+  MainExit: {fileID: 0}
+  Codex: {fileID: 0}
+  Carte: {fileID: 0}
+  Journal: {fileID: 0}
+  Option: {fileID: 0}
+  Perso: {fileID: 0}
+  Fond: {fileID: 0}
+  MissClick: {fileID: 0}
 --- !u!114 &1578146203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4014,6 +4054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1658451669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4256,6 +4297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &1664799083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4321,7 +4363,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fullText: "Alors, t\u2019avances bien, X8 ? Regarde ton journal si t\u2019as un
     doute. "
+  currentText: 
   delay: 0.05
+  clickReady: 0
+  finishText: 0
+  MainExit: {fileID: 0}
+  Codex: {fileID: 0}
+  Carte: {fileID: 0}
+  Journal: {fileID: 0}
+  Option: {fileID: 0}
+  Perso: {fileID: 0}
+  Fond: {fileID: 0}
+  MissClick: {fileID: 0}
 --- !u!114 &1687208161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4568,6 +4621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!1 &1792849293
 GameObject:
   m_ObjectHideFlags: 0
@@ -4874,6 +4928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initPosition: {x: 0, y: 0, z: 0}
   initScale: {x: 0, y: 0, z: 0}
+  dialFin: 0
 --- !u!114 &2103641074
 MonoBehaviour:
   m_ObjectHideFlags: 0

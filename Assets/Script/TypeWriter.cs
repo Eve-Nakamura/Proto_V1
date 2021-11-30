@@ -47,6 +47,7 @@ public class TypeWriter : MonoBehaviour
             // Ajout toutes les fonctions
             if (transform.parent.GetComponent<UI_Manager>().dialFin)
             {
+                print("ok");
                 transform.parent.GetComponent<Button>().onClick.AddListener(MainExit.display);
                 transform.parent.GetComponent<Button>().onClick.AddListener(Codex.display);
                 transform.parent.GetComponent<Button>().onClick.AddListener(Carte.display);
@@ -66,6 +67,7 @@ public class TypeWriter : MonoBehaviour
         // Ajout toutes les fonctions
         if (transform.parent.GetComponent<UI_Manager>().dialFin)
         {
+            print("ok2");
             transform.parent.GetComponent<Button>().onClick.AddListener(MainExit.display);
             transform.parent.GetComponent<Button>().onClick.AddListener(Codex.display);
             transform.parent.GetComponent<Button>().onClick.AddListener(Carte.display);
