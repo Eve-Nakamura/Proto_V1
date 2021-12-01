@@ -220,7 +220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3792999792397278437, guid: 5950b52fe7b85144ead98e6d42174cc1, type: 3}
       propertyPath: sceneName
-      value: Dialogue1c
+      value: DialogueC
       objectReference: {fileID: 0}
     - target: {fileID: 3792999793239057512, guid: 5950b52fe7b85144ead98e6d42174cc1, type: 3}
       propertyPath: m_AnchoredPosition.x

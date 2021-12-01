@@ -83,4 +83,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boucle_1/DialogueB.unity
     guid: 8a6e8c6f0214ee84f90b6153790fa408
+  - enabled: 1
+    path: Assets/Scenes/Boucle_1/DialogueBbis.unity
+    guid: cc0d00ee97ee146439be48ef06bd6486
   m_configObjects: {}

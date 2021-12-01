@@ -2100,7 +2100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e075fe06bcb79944f87acd30401de199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Dialogue1bBis
+  sceneName: DialogueBbis
 --- !u!4 &881791343
 Transform:
   m_ObjectHideFlags: 0
@@ -2566,6 +2566,10 @@ PrefabInstance:
     - target: {fileID: 3792999792397278436, guid: 5950b52fe7b85144ead98e6d42174cc1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3792999792397278437, guid: 5950b52fe7b85144ead98e6d42174cc1, type: 3}
+      propertyPath: sceneName
+      value: DialogueBBis
       objectReference: {fileID: 0}
     - target: {fileID: 3792999793239057512, guid: 5950b52fe7b85144ead98e6d42174cc1, type: 3}
       propertyPath: m_AnchoredPosition.x
