@@ -1613,7 +1613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e075fe06bcb79944f87acd30401de199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Dialogue1bBis
+  sceneName: DialogueBbis
 --- !u!114 &794837211
 MonoBehaviour:
   m_ObjectHideFlags: 0

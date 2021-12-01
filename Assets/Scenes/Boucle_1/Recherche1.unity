@@ -680,7 +680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e075fe06bcb79944f87acd30401de199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Dialogue1b
+  sceneName: DialogueB
 --- !u!114 &309188722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2789,7 +2789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e075fe06bcb79944f87acd30401de199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Dialogue1b
+  sceneName: DialogueB
 --- !u!114 &1113746744
 MonoBehaviour:
   m_ObjectHideFlags: 0
