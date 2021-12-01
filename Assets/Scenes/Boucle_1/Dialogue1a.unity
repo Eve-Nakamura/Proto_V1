@@ -815,7 +815,6 @@ MonoBehaviour:
     pi\xE8ce est le coeur du ch\xE2teau. "
   currentText: 
   delay: 0.05
-  clickReady: 0
   finishText: 0
   MainExit: {fileID: 0}
   Codex: {fileID: 0}
@@ -2044,7 +2043,6 @@ MonoBehaviour:
     va prendre le matos. "
   currentText: 
   delay: 0.05
-  clickReady: 0
   finishText: 0
   MainExit: {fileID: 966690482}
   Codex: {fileID: 1761325041}
@@ -2253,102 +2251,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1019228466}
-        m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
-        m_MethodName: hide
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 865574986}
-        m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
-        m_MethodName: hide
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1571284068}
-        m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
-        m_MethodName: minimizePerso
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 966690482}
-        m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
-        m_MethodName: display
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1761325041}
-        m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
-        m_MethodName: display
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1664799082}
-        m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
-        m_MethodName: display
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 276485785}
-        m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
-        m_MethodName: display
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 476553555}
-        m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
-        m_MethodName: display
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 151855327}
         m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
         m_MethodName: hide
         m_Mode: 1
@@ -3435,6 +3337,7 @@ GameObject:
   - component: {fileID: 1571284066}
   - component: {fileID: 1571284068}
   - component: {fileID: 1571284069}
+  - component: {fileID: 1571284070}
   m_Layer: 5
   m_Name: perso
   m_TagString: Untagged
@@ -3666,6 +3569,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1571284070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571284064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f7671ab5cb9b5c40bed8ed9f7867e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1576104397
 GameObject:
   m_ObjectHideFlags: 0
@@ -3840,7 +3755,6 @@ MonoBehaviour:
     aux vestiaires, trouve un chapeau et un manteau, et reviens ici. "
   currentText: 
   delay: 0.05
-  clickReady: 0
   finishText: 0
   MainExit: {fileID: 966690482}
   Codex: {fileID: 1761325041}
@@ -4242,7 +4156,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 865574986}
         m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
-        m_MethodName: display
+        m_MethodName: displayWithoutIf
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4254,7 +4168,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 151855327}
         m_TargetAssemblyTypeName: UI_Manager, Assembly-CSharp
-        m_MethodName: display
+        m_MethodName: displayWithoutIf
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4396,7 +4310,6 @@ MonoBehaviour:
     sur ton journal, consulte-le si t\u2019as besoin d\u2019un rappel. "
   currentText: 
   delay: 0.05
-  clickReady: 0
   finishText: 0
   MainExit: {fileID: 0}
   Codex: {fileID: 0}
@@ -4559,7 +4472,6 @@ MonoBehaviour:
     doute. "
   currentText: 
   delay: 0.05
-  clickReady: 0
   finishText: 0
   MainExit: {fileID: 966690482}
   Codex: {fileID: 1761325041}

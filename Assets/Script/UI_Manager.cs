@@ -32,12 +32,16 @@ public class UI_Manager : MonoBehaviour
             }
         }
 
-
         if (nbrHide == nbrList)
         {
             readyBouton = true;
             gameObject.SetActive(true);
         }
+    }
+
+    public void displayWithoutIf()
+    {
+        gameObject.SetActive(true);
     }
 
     public void hide()
@@ -46,15 +50,15 @@ public class UI_Manager : MonoBehaviour
         {
             GameObject click = gameObject.transform.GetChild(0).gameObject;
 
-            if (click.GetComponent<TypeWriter>().currentText != click.GetComponent<TypeWriter>().fullText)
+            // Si le texte n'est pas terminé
+            if (click.GetComponent<TypeWriter>().currentText.Length != click.GetComponent<TypeWriter>().fullText.Length)
             {
-                click.GetComponent<TypeWriter>().stopCoroutine();
                 click.GetComponent<TypeWriter>().displayText();
             }
 
-            else if (click.GetComponent<TypeWriter>().currentText == click.GetComponent<TypeWriter>().fullText)
+            // Si le texte est terminé
+            else if (click.GetComponent<TypeWriter>().currentText.Length == click.GetComponent<TypeWriter>().fullText.Length)
             {
-
                 gameObject.SetActive(false);
             }
         }
@@ -79,10 +83,11 @@ public class UI_Manager : MonoBehaviour
     }
     public void minimizePerso()
     {
-        /*print("minimize perso");*/
         if (!mini)
         {
             mini = true;
+            // on le rend interactible
+            GetComponent<Button>().interactable = true;
             gameObject.transform.localPosition = new Vector3(740, -150, initPosition.z);
             gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x / 3, gameObject.transform.localScale.y / 3, gameObject.transform.localScale.z);
         }
@@ -90,6 +95,8 @@ public class UI_Manager : MonoBehaviour
     public void rescalePerso()
     {
         mini = false;
+        // on le rend uninteractible
+        GetComponent<Button>().interactable = false;
         gameObject.transform.localScale = new Vector3(1, 1, 0f);
         gameObject.transform.position = new Vector3(initPosition.x, initPosition.y, gameObject.transform.position.z);
 

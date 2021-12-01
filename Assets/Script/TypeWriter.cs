@@ -8,7 +8,6 @@ public class TypeWriter : MonoBehaviour
     public string fullText;
     public string currentText;
     public float delay = 0.2f;
-    public bool clickReady = false;
     public bool finishText = false;
 
     [SerializeField] UI_Manager MainExit;
@@ -24,26 +23,26 @@ public class TypeWriter : MonoBehaviour
     {
         StartCoroutine(ShowText());
     }
-
-    public void stopCoroutine()
-    {
-        clickReady = true;
-        StopCoroutine(ShowText());
-    }
     IEnumerator ShowText()
     {
-        for (int i = 0; i< fullText.Length; i++)
+        for (int i = 0; i <= fullText.Length; i++)
         {
-            if (!Input.GetMouseButtonDown(0) && !clickReady)
+            if (!finishText)
             {
                 currentText = fullText.Substring(0, i);
                 GetComponent<TextMeshProUGUI>().text = currentText;
-                yield return new WaitForSeconds(delay);
             }
+            if (finishText)
+            {
+                StopCoroutine(ShowText());
+            }
+            yield return new WaitForSeconds(delay);
         }
-        if (fullText == currentText)
+        if (fullText.Length == currentText.Length)
         {
             finishText = true;
+            StopCoroutine(ShowText());
+            print(transform.parent.GetComponent<UI_Manager>().dialFin);
             // Ajout toutes les fonctions
             if (transform.parent.GetComponent<UI_Manager>().dialFin)
             {
@@ -62,6 +61,9 @@ public class TypeWriter : MonoBehaviour
 
     public void displayText()
     {
+        print("hola");
+        finishText = true;
+        StopCoroutine(ShowText());
         currentText = fullText;
         GetComponent<TextMeshProUGUI>().text = currentText;
         // Ajout toutes les fonctions
