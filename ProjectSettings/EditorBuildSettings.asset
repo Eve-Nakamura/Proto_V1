@@ -41,13 +41,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Boucle_1/Dialogue_BackUp/Dialogue1b.unity
     guid: 777f6e9d95f02ba4eb2d80a8b8e9bfe8
   - enabled: 0
     path: Assets/Scenes/Boucle_1/Dialogue_BackUp/Dialogue1c.unity
     guid: badee04fb3f0c9546b97e19ffee869e8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Boucle_1/Asuivre.unity
     guid: 9fd1c4e026fba64479858fc842f003e4
   - enabled: 0
@@ -56,7 +56,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Boucle_1/Dialogue_BackUp/Dialogue1bBis.unity
     guid: 0df583bdb6d0fb0428af05efafc157a3
   - enabled: 1
