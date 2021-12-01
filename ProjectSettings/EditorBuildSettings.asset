@@ -29,8 +29,8 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/Boucle_1/Bureau1a.unity
+  - enabled: 0
+    path: Assets/Scenes/Boucle_1/Dialogue_BackUp/Bureau1a.unity
     guid: 5113070567a8097418ef0f480575e023
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Recherche1.unity
@@ -38,14 +38,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Carte1.unity
     guid: aaaa291d0d4701646acbb9f5161166f3
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Boucle_1/Couloir1Bis.unity
-    guid: c6df87956122d0749babae64ed565950
-  - enabled: 1
-    path: Assets/Scenes/Boucle_1/Dialogue1b.unity
+    path: Assets/Scenes/Boucle_1/Dialogue_BackUp/Dialogue1b.unity
     guid: 777f6e9d95f02ba4eb2d80a8b8e9bfe8
-  - enabled: 1
-    path: Assets/Scenes/Boucle_1/Dialogue1c.unity
+  - enabled: 0
+    path: Assets/Scenes/Boucle_1/Dialogue_BackUp/Dialogue1c.unity
     guid: badee04fb3f0c9546b97e19ffee869e8
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Asuivre.unity
@@ -57,7 +57,7 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Boucle_1/Dialogue1bBis.unity
+    path: Assets/Scenes/Boucle_1/Dialogue_BackUp/Dialogue1bBis.unity
     guid: 0df583bdb6d0fb0428af05efafc157a3
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Minimes.unity
@@ -74,4 +74,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boucle_1/Couloir1 entre.unity
     guid: d7ea4bb78b2178340978c43d69eaff46
+  - enabled: 1
+    path: Assets/Scenes/Boucle_1/DialogueABis.unity
+    guid: 149288334008cdb4eb1cd9f974282acc
+  - enabled: 1
+    path: Assets/Scenes/Boucle_1/DialogueC.unity
+    guid: ee69dd0c1b75db948becc24a72573bc3
   m_configObjects: {}
