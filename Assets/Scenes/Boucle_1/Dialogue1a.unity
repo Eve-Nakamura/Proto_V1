@@ -3836,7 +3836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e20be5cb5c04bf34887540cfb52f22c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fullText: "Bref, assez parl\xE9. Ta premi\xE8re mission commence maintenant. Vas
+  fullText: "Bref, assez parl\xE9. Ta premi\xE8re mission commence maintenant. Va
     aux vestiaires, trouve un chapeau et un manteau, et reviens ici. "
   currentText: 
   delay: 0.05
