@@ -978,6 +978,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1544764956644156602, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1283.7416
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544764956644156602, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 119.1276
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544764956644156602, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -12.0665
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544764956644156602, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.4362
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470475425672666696, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
+      propertyPath: m_text
+      value: "Dommage...\nRappelez-vous. Trois d'entre eux sont de fieff\xE9s menteurs."
+      objectReference: {fileID: 0}
     - target: {fileID: 3672128980722897467, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
       propertyPath: m_text
       value: "MISSION 1 : Le contact\nDeuxi\xE8me partie"
