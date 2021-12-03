@@ -3156,7 +3156,7 @@ MonoBehaviour:
     de Radio Londres ? C'est une excellente nouvelle ! \xC7a va faire paniquer les
     Allemands ! "
   currentText: 
-  delay: 0.05
+  delay: 0.03
   finishText: 0
   MainExit: {fileID: 199548208}
   Codex: {fileID: 1761325041}

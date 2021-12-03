@@ -814,7 +814,7 @@ MonoBehaviour:
     oublie les noms, ici je suis X1, et tu seras X8. Je vais la faire courte. Cette
     pi\xE8ce est le coeur du ch\xE2teau. "
   currentText: 
-  delay: 0.05
+  delay: 0.03
   finishText: 0
   MainExit: {fileID: 0}
   Codex: {fileID: 0}
@@ -2042,7 +2042,7 @@ MonoBehaviour:
   fullText: "Impatient d\u2019aller dans Toulouse, hein ? Ca viendra, mais pour l\u2019instant,
     va prendre le matos. "
   currentText: 
-  delay: 0.05
+  delay: 0.03
   finishText: 0
   MainExit: {fileID: 966690482}
   Codex: {fileID: 1761325041}
@@ -3754,7 +3754,7 @@ MonoBehaviour:
   fullText: "Bref, assez parl\xE9. Ta premi\xE8re mission commence maintenant. Va
     aux vestiaires, trouve un chapeau et un manteau, et reviens ici. "
   currentText: 
-  delay: 0.05
+  delay: 0.03
   finishText: 0
   MainExit: {fileID: 966690482}
   Codex: {fileID: 1761325041}
@@ -4309,7 +4309,7 @@ MonoBehaviour:
     des  M\xE9moires de Guerre, si tu veux plus d\u2019infos. Tout est consign\xE9
     sur ton journal, consulte-le si t\u2019as besoin d\u2019un rappel. "
   currentText: 
-  delay: 0.05
+  delay: 0.03
   finishText: 0
   MainExit: {fileID: 0}
   Codex: {fileID: 0}
@@ -4471,7 +4471,7 @@ MonoBehaviour:
   fullText: "Alors, t\u2019avances bien, X8 ? Regarde ton journal si t\u2019as un
     doute. "
   currentText: 
-  delay: 0.05
+  delay: 0.03
   finishText: 0
   MainExit: {fileID: 966690482}
   Codex: {fileID: 1761325041}

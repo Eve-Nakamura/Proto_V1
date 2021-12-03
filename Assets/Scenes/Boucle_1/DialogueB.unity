@@ -3266,7 +3266,7 @@ MonoBehaviour:
   fullText: "Jette un coup d'oeil \xE0 la carte et rends-toi au Boulevard des Minimes.
     Trouve qui est le bon contact, et reviens me voir avec l\u2019info. Bonne chance. "
   currentText: 
-  delay: 0.05
+  delay: 0.03
   finishText: 0
   MainExit: {fileID: 966690482}
   Codex: {fileID: 1761325041}
@@ -3739,7 +3739,7 @@ MonoBehaviour:
     info pour nous. Je sais pas qui c'est, donc trouve le parmi les personnes pr\xE9sentes
     au bar, et fais attention aux tra\xEEtres de la Gestapo. "
   currentText: 
-  delay: 0.05
+  delay: 0.03
   finishText: 0
   MainExit: {fileID: 0}
   Codex: {fileID: 0}
@@ -3901,7 +3901,7 @@ MonoBehaviour:
   fullText: "Alors, t\u2019avances bien, X8 ? Regarde ton journal si t\u2019as un
     doute. "
   currentText: 
-  delay: 0.05
+  delay: 0.03
   finishText: 0
   MainExit: {fileID: 966690482}
   Codex: {fileID: 1761325041}

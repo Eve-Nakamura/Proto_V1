@@ -3264,7 +3264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fullText: 'Allez... Le Japon qui s''attaque a la Chine maintenant. '
   currentText: 
-  delay: 0.05
+  delay: 0.03
   finishText: 0
   MainExit: {fileID: 966690482}
   Codex: {fileID: 1761325041}
@@ -3736,7 +3736,7 @@ MonoBehaviour:
   fullText: "Alors, t\u2019avances bien, X8 ? Regarde ton journal si t\u2019as un
     doute. "
   currentText: 
-  delay: 0.05
+  delay: 0.03
   finishText: 0
   MainExit: {fileID: 966690482}
   Codex: {fileID: 1761325041}
