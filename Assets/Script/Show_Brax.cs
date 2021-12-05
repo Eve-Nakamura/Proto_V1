@@ -8,6 +8,7 @@ public class Show_Brax : MonoBehaviour
     public GameObject image1;
     public GameObject journal;
     public GameObject options;
+    public GameObject sons;
     void Start()
     {
 
@@ -25,12 +26,14 @@ public class Show_Brax : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                if (hit.collider.name == "Brax") 
+                if (hit.collider.name == "Brax" || hit.collider.name == "test") 
                 {
                     
                     image1.GetComponent<UI_Manager>().display();
                     journal.GetComponent<UI_Manager>().hide();
                     options.GetComponent<UI_Manager>().hide();
+                    sons.GetComponent<AudioSource>().Play();
+                   
 
                 }
 
