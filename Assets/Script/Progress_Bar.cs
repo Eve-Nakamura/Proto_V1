@@ -18,7 +18,7 @@ public class Progress_Bar : MonoBehaviour
     }
     void Start()
     {
-        /*Progression(-1);*/
+        Progression(-1);
     }
 
     // on vérif le score à chaque frame
@@ -41,7 +41,7 @@ public class Progress_Bar : MonoBehaviour
         }
     }
 
-    public void Progression(float newScore)
+    public void Progression(int newScore)
     {
         if (targetProgress < 16 && targetProgress > 0)
         {
