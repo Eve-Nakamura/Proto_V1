@@ -1212,15 +1212,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1544764956644156602, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -93.7663
+      value: -83
       objectReference: {fileID: 0}
     - target: {fileID: 2470475425672666696, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
       propertyPath: m_text
       value: "F\xE9licitations !\nIsabelle est votre contact !"
       objectReference: {fileID: 0}
     - target: {fileID: 2470475425672666696, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
+      propertyPath: m_fontSize
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470475425672666696, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
       propertyPath: m_margin.x
       value: -78.905945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2470475425672666696, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 3672128980722897467, guid: 9fe889cfa14f5054c8a5dfe37a6acb45, type: 3}
       propertyPath: m_text
