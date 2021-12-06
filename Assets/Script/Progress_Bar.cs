@@ -8,17 +8,19 @@ public class Progress_Bar : MonoBehaviour
     public Slider slider; //on appelle le slider
     public float targetProgress; //la valeur du score mise à jour
     public float speedFill = 0.5f; //la vitesse de déplacement du curseur
+    public Data data;
 
 
     //on teste
 
     private void Awake()
     {
+        data = FindObjectOfType<Data>();
         slider = gameObject.GetComponent<Slider>();
     }
     void Start()
     {
-        Progression(-1);
+        UpdateScore();
     }
 
     // on vérif le score à chaque frame
@@ -26,7 +28,7 @@ public class Progress_Bar : MonoBehaviour
     {
 
         
-        if (slider.value < targetProgress)
+        /*if (slider.value < targetProgress)
         {
             
             slider.value++; //on rajoute 1
@@ -38,20 +40,28 @@ public class Progress_Bar : MonoBehaviour
             
             slider.value--; //on enlève 1
             slider.value -= speedFill * Time.deltaTime;
-        }
+        }*/
     }
 
-    public void Progression(int newScore)
+    public void UpdateScore()
     {
-        if (targetProgress < 16 && targetProgress > 0)
+        if (data)
         {
-            targetProgress = slider.value + newScore; //on update le score selon les pts de réputation qu'on gagne ou qu'on perd
+            slider.value = data.GetScore();
         }
-        
     }
 
-/*    public void Regression(float newScore)
-    {
-        targetProgress = slider.value - newScore;
-    }*/
+    /* public void Progression(int newScore)
+     {
+         if (targetProgress < 16 && targetProgress > 0)
+         {
+             targetProgress = slider.value + newScore; //on update le score selon les pts de réputation qu'on gagne ou qu'on perd
+         }
+
+     }*/
+
+    /*    public void Regression(float newScore)
+        {
+            targetProgress = slider.value - newScore;
+        }*/
 }

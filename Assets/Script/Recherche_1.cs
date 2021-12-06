@@ -35,6 +35,7 @@ public class Recherche_1 : MonoBehaviour
         if (chapeauTrouve == true && manteauTrouve == true)
         {
             myTimer.Finish();
+            
         }
     }
 }

@@ -16,10 +16,14 @@ public class Timer : MonoBehaviour
     [SerializeField] GameObject popUpFini;
     [SerializeField] GameObject popUpFiniBad;
     [SerializeField] GameObject fondfin;
-
+    [SerializeField] Progress_Bar barreBien;
+    [SerializeField] Progress_Bar barrePasBien;
+    Data data;
 
     private void Awake()
     {
+        data = FindObjectOfType<Data>();
+    
         if (popUpFini != null) {
             popUpFini.SetActive(false); //desactive popup
         }
@@ -43,7 +47,16 @@ public class Timer : MonoBehaviour
             {
                 tempsEnCours -= Time.deltaTime; //timer defile
                 if (tempsRech == true) {
-                    myTimer.text = "00:" + tempsEnCours.ToString("f0"); //affichage timer
+
+                    // Si c'est des unité
+                    if(tempsEnCours > 9.5f)
+                    {
+                        myTimer.text = "00:" + tempsEnCours.ToString("f0"); //affichage timer
+                    }
+                    else
+                    {
+                        myTimer.text = "00:0" + tempsEnCours.ToString("f0");
+                    }
                 }
 
                 else
@@ -58,7 +71,7 @@ public class Timer : MonoBehaviour
             {
                 if (tempsRech == true)
                 {
-                    myTimer.text = "00:0"; //à 0 ou en dessous on affiche 0
+                    myTimer.text = "00:00"; //à 0 ou en dessous on affiche 0
                 }
 
                 else
@@ -88,15 +101,19 @@ public class Timer : MonoBehaviour
 
         tempsFini = true; //c termine
         if (popUpFini != null && tempsEnCours > 0)
-        {
+        {                                          //gagné
             popUpFini.SetActive(true); //popup s'affiche
             fondfin.SetActive(true); //popup s'affiche
+            data.AddScore();
+            barreBien.UpdateScore();
         }
 
         if (popUpFini != null && tempsEnCours <= 0)
-        {
+        {                                           //perdu
             popUpFiniBad.SetActive(true); //popup s'affiche
             fondfin.SetActive(true); //popup s'affiche
+            data.AddScore(-1);
+            barrePasBien.UpdateScore();
         }
     }
 }

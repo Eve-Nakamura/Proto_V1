@@ -14,11 +14,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4585422635703743728, guid: cf64ed2ac4c531a48a5d6e6099b0febd, type: 3}
       propertyPath: m_Name
-      value: Lejournal 1
+      value: Lejournal 1 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4585422635703743728, guid: cf64ed2ac4c531a48a5d6e6099b0febd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4585422635703743729, guid: cf64ed2ac4c531a48a5d6e6099b0febd, type: 3}
       propertyPath: m_Pivot.x
