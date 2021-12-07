@@ -9,6 +9,7 @@ public class Show_Brax : MonoBehaviour
     public GameObject journal;
     public GameObject options;
     public GameObject sons;
+    public GameObject block;
     void Start()
     {
 
@@ -26,9 +27,9 @@ public class Show_Brax : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                if (hit.collider.name != "Fond" && hit.collider.name == "test") 
+                if (hit.collider.name != "BlockRaycast" && hit.collider.name == "test") 
                 {
-                    
+                    block.SetActive(true);
                     image1.GetComponent<UI_Manager>().display();
                     journal.GetComponent<UI_Manager>().hide();
                     options.GetComponent<UI_Manager>().hide();

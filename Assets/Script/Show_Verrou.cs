@@ -9,6 +9,7 @@ public class Show_Verrou : MonoBehaviour
     public GameObject journal;
     public GameObject options;
     public GameObject Fond;
+    public GameObject block;
     public GameObject sons;
     void Start()
     {
@@ -27,9 +28,9 @@ public class Show_Verrou : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                if (hit.collider.name == "fred" || hit.collider.name == "mat")
+                if (hit.collider.name != "BlockRaycast" &&  hit.collider.name == "fred" || hit.collider.name != "BlockRaycast" &&  hit.collider.name == "mat")
                 {
-
+                    block.SetActive(true);
                     image1.GetComponent<UI_Manager>().display();
                     Fond.GetComponent<UI_Manager>().display();
                     journal.GetComponent<UI_Manager>().hide();

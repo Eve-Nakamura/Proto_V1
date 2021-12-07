@@ -8,6 +8,7 @@ public class Show_Minimes : MonoBehaviour
     public GameObject journal;
     public GameObject options;
     public GameObject sons;
+    public GameObject block;
 
     void Start()
     {
@@ -25,9 +26,9 @@ public class Show_Minimes : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                if (hit.collider.name != "Fond" && hit.collider.name == "min") //on touche pas à tout non plus
+                if (hit.collider.name != "BlockRaycast" && hit.collider.name == "min") //on touche pas à tout non plus
                 {
-                    print("min");
+                    block.SetActive(true);
                     image1.GetComponent<UI_Manager>().display(); //permet l'affichage d'ui avec le raycast
                     journal.GetComponent<UI_Manager>().hide();
                     options.GetComponent<UI_Manager>().hide();
