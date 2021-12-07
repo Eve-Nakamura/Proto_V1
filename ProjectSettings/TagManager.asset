@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Dial
   - Flou
+  - fred
+  - mat
+  - min
   layers:
   - Default
   - TransparentFX
