@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Data : MonoBehaviour
 {
-    [SerializeField] int score = 0; //on stocke la valeur du score
+    [SerializeField] int score = 8; //on stocke la valeur du score
     [SerializeField] int maxScore = 16;
     [SerializeField] int minScore = 0;
 
@@ -26,6 +26,8 @@ public class Data : MonoBehaviour
             score = minScore;
         }
     }
+
+  
 
     public int GetScore()
     {
