@@ -7,6 +7,8 @@ public class Show_Minimes : MonoBehaviour
     public GameObject image1;
     public GameObject journal;
     public GameObject options;
+    public GameObject sons;
+
     void Start()
     {
 
@@ -23,12 +25,13 @@ public class Show_Minimes : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                if (hit.collider.name == "Minimes") //on touche pas à tout non plus
+                if (hit.collider.name != "Fond" && hit.collider.name == "min") //on touche pas à tout non plus
                 {
-
+                    print("min");
                     image1.GetComponent<UI_Manager>().display(); //permet l'affichage d'ui avec le raycast
                     journal.GetComponent<UI_Manager>().hide();
                     options.GetComponent<UI_Manager>().hide();
+                    sons.GetComponent<AudioSource>().Play();
 
                 }
 

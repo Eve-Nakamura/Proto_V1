@@ -26,7 +26,7 @@ public class Show_Brax : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                if (hit.collider.name == "Brax" || hit.collider.name == "test") 
+                if (hit.collider.name != "Fond" && hit.collider.name == "test") 
                 {
                     
                     image1.GetComponent<UI_Manager>().display();

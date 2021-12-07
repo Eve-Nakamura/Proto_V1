@@ -27,7 +27,7 @@ public class Show_Verrou : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                if (hit.collider.name == "Matabiau" || hit.collider.name == "mat")
+                if (hit.collider.name == "fred" || hit.collider.name == "mat")
                 {
 
                     image1.GetComponent<UI_Manager>().display();
