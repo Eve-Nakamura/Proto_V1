@@ -1399,7 +1399,7 @@ PrefabInstance:
     - target: {fileID: 1124631912299192815, guid: 5cb7893b4f62f6447b39baf52241cd2c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e31fa66b8471325448be26a69c0c7e67, type: 2}
+      objectReference: {fileID: 2100000, guid: 5ec9306d51bc42141bf50df0bd8fee2e, type: 2}
     - target: {fileID: 2149899236505644625, guid: 5cb7893b4f62f6447b39baf52241cd2c, type: 3}
       propertyPath: m_Name
       value: fred
